@@ -1,4 +1,4 @@
-package commons;
+package com.symphony.xpodbot.commons;
 
 /**
  * Created by nick.tarsillo on 8/8/17.

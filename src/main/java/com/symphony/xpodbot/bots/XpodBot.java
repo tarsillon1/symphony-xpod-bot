@@ -1,14 +1,14 @@
-package bots;
+package com.symphony.xpodbot.bots;
 
-import config.BotConfig;
+import com.symphony.xpodbot.config.BotConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.symphonyoss.client.SymphonyClient;
 import org.symphonyoss.client.impl.SymphonyBasicClient;
 import org.symphonyoss.client.model.SymAuth;
 import org.symphonyoss.symphony.clients.AuthorizationClient;
-import service.AutoConnectionAcceptListener;
-import service.EchoMessageListener;
+import com.symphony.xpodbot.service.AutoConnectionAcceptListener;
+import com.symphony.xpodbot.service.EchoMessageListener;
 
 /**
  * Created by nick.tarsillo on 8/7/17.

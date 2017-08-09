@@ -1,4 +1,4 @@
-package config;
+package com.symphony.xpodbot.config;
 
 import org.apache.commons.configuration.Configuration;
 import org.apache.commons.configuration.ConfigurationException;
@@ -83,7 +83,7 @@ public class BotConfig {
       if (configDir == null) {
         configDir = System.getProperty(CONFIG_DIR);
         if (configDir == null) {
-          configDir = "config";
+          configDir = "com/symphony/xpodbot/config";
         }
       }
 

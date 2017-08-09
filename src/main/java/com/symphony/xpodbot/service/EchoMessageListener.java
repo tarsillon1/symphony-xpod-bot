@@ -1,6 +1,6 @@
-package service;
+package com.symphony.xpodbot.service;
 
-import commons.BotConstants;
+import com.symphony.xpodbot.commons.BotConstants;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.symphonyoss.client.exceptions.MessagesException;
